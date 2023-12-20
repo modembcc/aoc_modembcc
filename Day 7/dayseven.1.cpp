@@ -91,7 +91,7 @@ int main(){
         long n = pq.size();
         long sum = 0;
         while(!pq.empty()){
-            cout << pq.top().cards << ' ' << pq.top().bids << endl;
+            // cout << pq.top().cards << ' ' << pq.top().bids << endl;
             sum += pq.top().bids * n;
             n--;
             pq.pop();
